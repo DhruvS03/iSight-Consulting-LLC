@@ -20,7 +20,12 @@
     <header class="site-header">
       <div class="container nav-wrap">
         <a class="brand" href="#top" aria-label="iSight Consulting home">
-          <img src="./assets/Logo%20blue.png" alt="iSight Consulting" />
+          <img
+            src="./assets/Logo%20blue.png"
+            alt="iSight Consulting"
+            data-light-logo="./assets/Logo%20blue.png"
+            data-dark-logo="./assets/Logo%20White.png"
+          />
         </a>
 
         <button
@@ -57,9 +62,17 @@
               Lead-to-Revenue lifecycle, connecting strategy, systems, and
               execution across CPQ, CLM, and Revenue Operations.
             </p>
+            <div class="hero-pillars">
+              <span class="hero-pillar">Q2C Strategy</span>
+              <span class="hero-pillar">CLM Transformation</span>
+              <span class="hero-pillar">Revenue Operations</span>
+            </div>
             <div class="hero-actions">
               <a class="button button-primary" href="#contact">
                 Unlock Revenue Clarity
+              </a>
+              <a class="button hero-secondary" href="#services">
+                Explore Services
               </a>
             </div>
 
@@ -74,13 +87,34 @@
                 enterprise-scale implementations and advisory.
               </p>
             </div>
+
+            <!-- <div class="hero-stats">
+              <div class="hero-stat-card">
+                <strong>Advisory-led</strong>
+                <span>Strategy first, then systems and execution.</span>
+              </div>
+              <div class="hero-stat-card">
+                <strong>Enterprise ready</strong>
+                <span>Built for complex transformation across revenue teams.</span>
+              </div>
+            </div> -->
           </div>
 
           <div class="hero-visual reveal reveal-delay">
-            <img
-              src="./assets/hero-growth.png"
-              alt="Abstract revenue growth illustration"
-            />
+            <div class="hero-visual-shell">
+              <div class="hero-visual-badge hero-badge-top">
+                <span class="hero-badge-label">Revenue Growth</span>
+                <strong>Connected lifecycle performance</strong>
+              </div>
+              <img
+                src="./assets/hero-growth.png"
+                alt="Abstract revenue growth illustration"
+              />
+              <div class="hero-visual-badge hero-badge-bottom">
+                <span class="hero-mini-stat">Lead to Revenue</span>
+                <p>Align pricing, quoting, contracting, and realization.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -191,59 +225,128 @@
       </section>
 
       <section class="section" id="about">
-        <div class="container about-grid">
-          <div class="about-image reveal">
-            <img src="./assets/Punit%20Baxi.png" alt="Punit Baxi" />
+        <div class="container about-showcase">
+          <div class="about-visual reveal">
+            <div class="about-portrait-shell">
+              <div class="about-image">
+                <img src="./assets/Punit%20Baxi.png" alt="Punit Baxi" />
+              </div>
+
+              <!-- <div class="about-floating-card about-floating-top">
+                <span class="about-floating-label">Revenue Focus</span>
+                <strong>L2R, Q2C, CLM</strong>
+                <p>Strategy, systems, and execution aligned in one lane.</p>
+              </div> -->
+
+              <div class="about-floating-card about-floating-bottom">
+                <span class="about-metric">Enterprise Advisory</span>
+                <p>Bridging executive strategy with operational delivery.</p>
+              </div>
+            </div>
+
+            <div class="about-stats">
+              <div class="about-stat-card">
+                <strong>Strategic Lens</strong>
+                <span>Business outcomes first, tooling second.</span>
+              </div>
+              <div class="about-stat-card">
+                <strong>Execution Depth</strong>
+                <span>Rollouts, transformations, and operating model design.</span>
+              </div>
+            </div>
           </div>
 
           <div class="about-copy reveal reveal-delay">
             <span class="eyebrow">About Me</span>
             <h2>Strategic Advisor in Revenue Lifecycle &amp; Q2C Transformation</h2>
-            <p>
-              I'm Punit Baxi, Founder of iSight Consulting LLC, and a strategic
-              advisor helping enterprises navigate the complexity of modern
-              revenue operations.
-            </p>
 
-            <div class="highlight-panel">
-              My focus is simple: turn fragmented processes into a connected,
-              intelligent revenue lifecycle.
-            </div>
-
-            <p>
-              With deep expertise across Lead-to-Revenue, I work with
-              organizations to design and implement scalable operating models
-              spanning:
-            </p>
-
-            <div class="bullet-grid">
-              <p>Pricing &amp; monetization strategy</p>
-              <p>CPQ (Configure, Price, Quote)</p>
-              <p>Contract Lifecycle Management</p>
-              <p>Billing &amp; revenue realization</p>
-            </div>
-
-            <p>
-              I've led global transformation programs, enterprise rollouts, and
-              post-M&amp;A integrations, helping organizations unlock revenue
-              visibility, accelerate deal cycles, and protect margins.
-            </p>
-
-            <div class="tag-block">
-              <h3>Bridging the Gap</h3>
+            <div class="about-intro">
               <p>
-                What differentiates my approach is the ability to bridge
-                strategy, technology execution, and operational transformation.
+                I'm Punit Baxi, Founder of iSight Consulting LLC, and a strategic
+                advisor helping enterprises navigate the complexity of modern
+                revenue operations.
               </p>
-              <div class="tag-row">
-                <span class="tag">Business strategy</span>
-                <span class="tag">Technology execution</span>
-                <span class="tag">Operational transformation</span>
+              <p>
+                I partner with organizations that need more than system
+                implementation. They need clarity across pricing, contracting,
+                billing, and revenue realization.
+              </p>
+            </div>
+
+            <div class="about-focus-card">
+              <span class="focus-kicker">Core Point of View</span>
+              <h3>Turn fragmented processes into one connected, intelligent revenue lifecycle.</h3>
+              <p>
+                I help leaders remove friction between strategy, commercial
+                operations, and enabling technology so growth scales with better
+                visibility and stronger control.
+              </p>
+            </div>
+
+            <div class="about-capabilities">
+              <div class="about-capabilities-head">
+                <h3>Where I Create Impact</h3>
+                <p>
+                  With deep expertise across Lead-to-Revenue, I design scalable
+                  operating models spanning the full revenue chain.
+                </p>
+              </div>
+
+              <div class="capability-list">
+                <div class="capability-item">
+                  <span class="capability-index">01</span>
+                  <div>
+                    <h4>Pricing &amp; monetization strategy</h4>
+                    <p>Build commercial models that support growth and protect margin.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <span class="capability-index">02</span>
+                  <div>
+                    <h4>CPQ (Configure, Price, Quote)</h4>
+                    <p>Improve quoting precision, speed, and governance across the funnel.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <span class="capability-index">03</span>
+                  <div>
+                    <h4>Contract Lifecycle Management</h4>
+                    <p>Connect legal, sales, and operations with cleaner contracting workflows.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <span class="capability-index">04</span>
+                  <div>
+                    <h4>Billing &amp; revenue realization</h4>
+                    <p>Align downstream execution so revenue is recognized with confidence.</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="tag-block">
-              <h3>Industry Voice</h3>
+            <div class="about-bottom-grid">
+              <div class="about-story-card">
+                <h3>Transformation Experience</h3>
+                <p>
+                  I've led global transformation programs, enterprise rollouts,
+                  and post-M&amp;A integrations, helping organizations unlock
+                  revenue visibility, accelerate deal cycles, and protect
+                  margins.
+                </p>
+              </div>
+
+              <div class="about-pillars-card">
+                <h3>How I Bridge the Gap</h3>
+                <div class="pillars-grid">
+                  <span class="pillar-chip">Business strategy</span>
+                  <span class="pillar-chip">Technology execution</span>
+                  <span class="pillar-chip">Operational transformation</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="voice-card">
+              <span class="voice-label">Industry Voice</span>
               <p>
                 I regularly share perspectives on AI in Revenue Lifecycle,
                 Autonomous Revenue, and the future of Q2C ecosystems, combining
@@ -255,20 +358,34 @@
       </section>
 
       <section class="section section-soft" id="insights">
-        <div class="container">
-          <div class="section-heading reveal center">
-            <span class="eyebrow">Thought Leadership</span>
-            <h2>Insights on the Future of Revenue</h2>
-            <p>
-              Exploring the intersection of AI, Revenue Lifecycle Management,
-              and Q2C transformation.
-            </p>
+        <div class="container insights-shell">
+          <div class="insights-hero reveal">
+            <div class="insights-heading">
+              <span class="eyebrow">Thought Leadership</span>
+              <h2>Insights on the Future of Revenue</h2>
+              <p>
+                Exploring the intersection of AI, Revenue Lifecycle Management,
+                and Q2C transformation.
+              </p>
+            </div>
+
+            <div class="insights-summary-card">
+              <span class="insights-summary-label">Perspective</span>
+              <strong>Helping revenue leaders connect strategy, systems, and execution.</strong>
+              <p>
+                From AI-enabled contracting to Rev 3.0 operating models, these
+                topics focus on practical transformation that scales.
+              </p>
+            </div>
           </div>
 
-          <div class="topic-row">
-            <article class="info-card compact reveal">
-              <div class="icon-badge">
-                <img src="./assets/ai%20revenue.png" alt="" aria-hidden="true" />
+          <div class="topic-grid">
+            <article class="topic-card reveal">
+              <div class="topic-card-top">
+                <div class="icon-badge">
+                  <img src="./assets/ai%20revenue.png" alt="" aria-hidden="true" />
+                </div>
+                <span class="topic-tag">Featured Topic</span>
               </div>
               <h3>AI in Revenue Lifecycle</h3>
               <p>
@@ -277,9 +394,12 @@
               </p>
             </article>
 
-            <article class="info-card compact reveal reveal-delay">
-              <div class="icon-badge">
-                <img src="./assets/autonomus.png" alt="" aria-hidden="true" />
+            <article class="topic-card reveal reveal-delay">
+              <div class="topic-card-top">
+                <div class="icon-badge">
+                  <img src="./assets/autonomus.png" alt="" aria-hidden="true" />
+                </div>
+                <span class="topic-tag">Emerging Shift</span>
               </div>
               <h3>Autonomous Revenue (Rev 3.0)</h3>
               <p>
@@ -288,13 +408,16 @@
               </p>
             </article>
 
-            <article class="info-card compact reveal reveal-delay-2">
-              <div class="icon-badge">
-                <img
-                  src="./assets/q2c%20transformation.png"
-                  alt=""
-                  aria-hidden="true"
-                />
+            <article class="topic-card reveal reveal-delay-2">
+              <div class="topic-card-top">
+                <div class="icon-badge">
+                  <img
+                    src="./assets/q2c%20transformation.png"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </div>
+                <span class="topic-tag">Execution Lens</span>
               </div>
               <h3>Q2C Transformation Playbook</h3>
               <p>
@@ -304,11 +427,60 @@
             </article>
           </div>
 
-          <div class="insights-layout">
-            <div class="stack-list reveal">
-              <div class="text-cluster">
-                <h3>Speaking &amp; Publications</h3>
-                <h4>Speaking Engagements</h4>
+          <div class="insights-feature-layout">
+            <article class="insight-feature-card reveal">
+              <div class="insight-feature-media">
+                <img
+                  class="insight-image"
+                  src="./assets/blog.jpg"
+                  alt="Featured insight illustration"
+                />
+                <div class="insight-feature-badge">
+                  <span>Featured Insight</span>
+                  <strong>Rev 3.0 is already underway</strong>
+                </div>
+              </div>
+
+              <div class="insight-feature-body">
+                <div class="insight-head">
+                  <div class="author">
+                    <img src="./assets/Punit%20Baxi.png" alt="Punit Baxi" />
+                    <div>
+                      <h3>Punit Baxi</h3>
+                      <p>Founder at iSight Consulting LLC</p>
+                    </div>
+                  </div>
+                  <span class="social-badge">in</span>
+                </div>
+
+                <h3 class="insight-feature-title">
+                  AI isn't just a buzzword in Revenue Operations anymore.
+                </h3>
+                <p>
+                  We are entering Rev 3.0, transitioning from manual workflows
+                  to autonomous, intelligent revenue ecosystems.
+                </p>
+                <p>
+                  Leaders who adapt early will see stronger deal velocity,
+                  better margin protection, and tighter alignment across
+                  contracting, pricing, and revenue realization.
+                </p>
+
+                <div class="insight-meta">
+                  <span>124 Likes</span>
+                  <span>18 Comments</span>
+                  <span>2 Weeks Ago</span>
+                </div>
+              </div>
+            </article>
+
+            <div class="insights-side-column reveal reveal-delay">
+              <div class="insight-panel">
+                <div class="insight-panel-head">
+                  <h3>Speaking &amp; Publications</h3>
+                  <p>Recent sessions, forums, and published perspectives.</p>
+                </div>
+
                 <div class="list-card strong">
                   Conga Connect sessions on AI-driven contracting and revenue
                   transformation.
@@ -318,8 +490,12 @@
                 </div>
               </div>
 
-              <div class="text-cluster">
-                <h4>Recent Articles</h4>
+              <div class="insight-panel">
+                <div class="insight-panel-head">
+                  <h3>Recent Articles</h3>
+                  <p>Quick-entry reads for transformation-minded leaders.</p>
+                </div>
+
                 <a class="list-link" href="#contact">
                   <span>The Future of Autonomous Revenue</span>
                   <span>&#8599;</span>
@@ -334,110 +510,150 @@
                 </a>
               </div>
             </div>
-
-            <article class="insight-card reveal reveal-delay">
-              <div class="insight-head">
-                <div class="author">
-                  <img src="./assets/Punit%20Baxi.png" alt="Punit Baxi" />
-                  <div>
-                    <h3>Punit Baxi</h3>
-                    <p>Founder at iSight Consulting LLC</p>
-                  </div>
-                </div>
-                <span class="social-badge">in</span>
-              </div>
-              <p>
-                AI isn't just a buzzword in Revenue Operations anymore. We are
-                entering Rev 3.0, transitioning from manual workflows to
-                autonomous, intelligent revenue ecosystems.
-              </p>
-              <p>
-                Leaders who adapt early will see stronger deal velocity, better
-                margin protection, and tighter alignment across contracting,
-                pricing, and revenue realization.
-              </p>
-              <img
-                class="insight-image"
-                src="./assets/hero-growth.png"
-                alt="Featured insight illustration"
-              />
-              <div class="insight-meta">
-                <span>124 Likes</span>
-                <span>18 Comments</span>
-              </div>
-            </article>
           </div>
         </div>
       </section>
 
       <section class="section contact-section" id="contact">
-        <div class="container contact-grid">
-          <div class="contact-copy reveal">
-            <span class="eyebrow">Connect</span>
-            <h2>Let's Transform Your Revenue Operations</h2>
-            <p>
-              Whether you're looking to modernize your Q2C processes, implement
-              CLM, or drive end-to-end revenue transformation, iSight
-              Consulting can help.
-            </p>
+        <div class="container contact-shell">
+          <div class="contact-grid">
+            <div class="contact-copy reveal">
+              <span class="eyebrow">Connect</span>
+              <h2>Let's Transform Your Revenue Operations</h2>
+              <p>
+                Whether you're modernizing Q2C processes, implementing CLM, or
+                driving end-to-end revenue transformation, iSight Consulting can
+                help you move from complexity to clarity.
+              </p>
 
-            <div class="contact-list">
-              <div class="contact-item">
-                <span class="contact-icon">@</span>
-                <div>
-                  <p>Email Us</p>
-                  <a href="mailto:hello@isightconsulting.com">
-                    hello@isightconsulting.com
-                  </a>
+              <div class="contact-highlights">
+                <div class="contact-highlight-card">
+                  <span class="highlight-kicker">Advisory First</span>
+                  <strong>Clarity before implementation</strong>
+                  <p>
+                    Align strategy, systems, and execution around measurable
+                    revenue outcomes.
+                  </p>
+                </div>
+
+                <div class="contact-highlight-card">
+                  <span class="highlight-kicker">Typical Focus</span>
+                  <strong>Q2C, CLM, L2R transformation</strong>
+                  <p>
+                    Practical support for enterprise teams navigating change
+                    across the revenue lifecycle.
+                  </p>
                 </div>
               </div>
 
-              <div class="contact-item">
-                <span class="contact-icon">in</span>
-                <div>
-                  <p>Connect on LinkedIn</p>
-                  <a
-                    href="https://linkedin.com/in/punitbaxi"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    linkedin.com/in/punitbaxi
-                  </a>
-                </div>
+              <div class="contact-list">
+                <a class="contact-item" href="mailto:hello@isightconsulting.com">
+                  <span class="contact-icon">@</span>
+                  <div>
+                    <p>Email Us</p>
+                    <strong>hello@isightconsulting.com</strong>
+                  </div>
+                </a>
+
+                <a
+                  class="contact-item"
+                  href="https://linkedin.com/in/punitbaxi"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="contact-icon">in</span>
+                  <div>
+                    <p>Connect on LinkedIn</p>
+                    <strong>linkedin.com/in/punitbaxi</strong>
+                  </div>
+                </a>
               </div>
             </div>
-          </div>
 
-          <form class="contact-form reveal reveal-delay">
-            <h3>Schedule a Consultation</h3>
-            <label>
-              Full Name
-              <input type="text" name="name" placeholder="Jane Doe" />
-            </label>
-            <label>
-              Work Email
-              <input
-                type="email"
-                name="email"
-                placeholder="jane@company.com"
-              />
-            </label>
-            <label>
-              How can we help?
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell us about your current challenges..."
-              ></textarea>
-            </label>
-            <button class="button button-primary button-block" type="submit">
-              Submit Request
-            </button>
-            <p class="form-status" aria-live="polite"></p>
-          </form>
+            <form
+              class="contact-form reveal reveal-delay"
+              action="https://formspree.io/f/mlgazklg"
+              method="POST"
+              novalidate
+            >
+              <div class="contact-form-head">
+                <span class="form-kicker">Schedule a Consultation</span>
+                <h3>Tell us where your revenue operations need support.</h3>
+                <p>
+                  Share a little context and we'll follow up with the right next
+                  step.
+                </p>
+              </div>
+
+              <div class="contact-form-grid">
+                <label>
+                  Full Name
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Jane Doe"
+                    autocomplete="name"
+                    required
+                  />
+                </label>
+                <label>
+                  Work Email
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="jane@company.com"
+                    autocomplete="email"
+                    required
+                  />
+                </label>
+              </div>
+
+              <input type="hidden" name="source" value="iSight Consulting Website" />
+
+              <label>
+                How can we help?
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us about your current challenges..."
+                  required
+                ></textarea>
+              </label>
+
+              <div class="form-footer">
+                <button class="button button-primary" type="submit">
+                  Submit Request
+                </button>
+                <p class="form-note">Response typically within 1-2 business days.</p>
+              </div>
+
+              <p class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
         </div>
       </section>
     </main>
+
+    <div class="floating-actions" aria-label="Quick actions">
+      <button
+        class="floating-button theme-toggle"
+        type="button"
+        aria-label="Switch to dark theme"
+        aria-pressed="false"
+        title="Toggle theme"
+      >
+        <span class="floating-button-icon" aria-hidden="true">◐</span>
+      </button>
+
+      <a
+        class="floating-button back-to-top"
+        href="#top"
+        aria-label="Back to top"
+        title="Back to top"
+      >
+        <span class="floating-button-icon" aria-hidden="true">↑</span>
+      </a>
+    </div>
 
     <footer class="site-footer">
       <div class="container footer-wrap">

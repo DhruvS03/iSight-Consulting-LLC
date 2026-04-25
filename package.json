@@ -1,0 +1,9 @@
+{
+  "name": "isight-consulting-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
