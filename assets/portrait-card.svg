@@ -1,0 +1,15 @@
+<svg width="620" height="760" viewBox="0 0 620 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portrait-bg" x1="0" y1="0" x2="620" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8D8D8"/>
+      <stop offset="1" stop-color="#F4F4F4"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="760" rx="32" fill="url(#portrait-bg)"/>
+  <ellipse cx="302" cy="152" rx="118" ry="95" fill="#7B1C36"/>
+  <circle cx="302" cy="224" r="78" fill="#D0A271"/>
+  <path d="M206 178C217 114 385 106 401 182C370 145 323 132 302 132C280 132 235 145 206 178Z" fill="#711934"/>
+  <path d="M166 600C166 478.49 226.292 380 300.667 380C375.041 380 435.333 478.49 435.333 600V670H166V600Z" fill="#FDFDFD"/>
+  <path d="M204 286C219 404 255 600 302 600C349 600 385 404 400 286C382 344 347 378 302 378C257 378 222 344 204 286Z" fill="#171717"/>
+  <path d="M216 254C225 219 259 196 302 196C345 196 379 219 388 254C362 233 332 223 302 223C272 223 242 233 216 254Z" fill="#261D18"/>
+</svg>
