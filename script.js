@@ -106,7 +106,7 @@ if (contactForm && formStatus) {
     formData.set("email", String(formData.get("email") || "").trim());
     formData.set("message", String(formData.get("message") || "").trim());
 
-    if (!formAction || formAction.includes("shahbrock982003@gmail.com")) {
+    if (!formAction || formAction.includes("punitbaxi@gmail.com")) {
       formStatus.dataset.state = "error";
       formStatus.textContent =
         "Add your real Formspree form endpoint in the contact form action first.";

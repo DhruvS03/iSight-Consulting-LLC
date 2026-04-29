@@ -11,10 +11,10 @@
   --shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
   --radius: 24px;
   --container: 1180px;
-  --header-bg: rgba(255, 255, 255, 0.92);
-  --header-border: rgba(229, 231, 235, 0.8);
-  --nav-link: #475569;
-  --nav-link-hover: var(--ink);
+  --header-bg: rgba(6, 16, 31, 0.95);
+  --header-border: rgba(123, 157, 206, 0.18);
+  --nav-link: #d4e4ff;
+  --nav-link-hover: #ffffff;
   --hero-pill-bg: rgba(255, 255, 255, 0.9);
   --hero-pill-border: rgba(203, 213, 225, 0.95);
   --hero-pill-text: #1e293b;
@@ -55,7 +55,7 @@ body[data-theme="dark"] {
   --blue-deep: #3c89ee;
   --navy: #06101f;
   --shadow: 0 28px 70px rgba(2, 8, 23, 0.42);
-  --header-bg: rgba(6, 16, 31, 0.86);
+  --header-bg: rgba(6, 16, 31, 0.95);
   --header-border: rgba(123, 157, 206, 0.18);
   --nav-link: #d4e4ff;
   --nav-link-hover: #ffffff;
@@ -109,7 +109,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 a {
@@ -280,13 +280,13 @@ textarea {
 .about-copy h2,
 .contact-copy h2 {
   margin: 1rem 0 1.25rem;
-  line-height: 1.05;
+  line-height: 1;
   letter-spacing: -0.04em;
 }
 
 .hero-copy h1 {
-  max-width: 11ch;
-  font-size: clamp(3rem, 4vw, 5.1rem);
+  max-width: 16ch;
+  font-size: clamp(3rem, 1.5vw, 5.1rem);
 }
 
 .lead,
@@ -1309,12 +1309,13 @@ textarea {
   padding: 0;
   border: 0;
   border-radius: 14px;
-  background: #eef4ff;
-  color: var(--ink);
+  background: rgba(97, 167, 255, 0.12);
+  color: #d4e4ff;
 }
 
 body[data-theme="dark"] .nav-toggle {
   background: rgba(97, 167, 255, 0.12);
+  color: #d4e4ff;
 }
 
 .floating-actions {
