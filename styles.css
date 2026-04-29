@@ -109,6 +109,10 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+}
+.imglogo {
+  display: block;
   max-width: 70%;
 }
 
